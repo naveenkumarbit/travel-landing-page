@@ -1,0 +1,341 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#logo{
+
+    background-color: rgba(0, 0,0,0.2);
+    display: flex;
+    padding:7px;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 2;
+    padding-left: 60px;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+#menu{
+    display: flex;
+    padding-right: 100px;
+    list-style: none;
+    align-items: center;
+
+    
+}
+li{
+    display: inline-block;
+    align-items: centerw;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+#myvideo1{
+    top: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0;
+    opacity: 80%;
+    z-index: -1;
+    width: 100%;
+
+}
+#welcomeimg{
+    z-index: 1;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 350px;
+    width: 50%;
+}
+#welcome{
+    text-align: center;
+
+    font-size: 30px;
+}
+#homesph{
+    text-align: start;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 250px;
+    background-color: rgb(248, 163, 88);
+    color: white;
+    font-size: 30px;
+    padding: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow:  0 4px 8px 10px rgba(0, 0, 0, 0.2) ;
+}
+#homesphpara{
+    font-size: 18px;
+    text-align:start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#pics{
+    margin-right: 100px;
+    text-align: center;
+    padding-left: 0px;
+
+}
+#box1{
+    margin-top: 650px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    border-spacing: 30px;
+
+
+}
+#box1th{
+    align-content: center;
+    padding-left: 10px;
+}
+.box1h{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box1th:hover{
+    box-shadow:  0 4px 8px 10px rgba(0, 0, 0, 0.10) ;
+}
+.box1th{
+    box-shadow:  0 2px 4px 5px rgba(0, 0, 0, 0.1) ;
+}
+#PACKAGES h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-left: 100px;
+    margin-top:100px ;
+}
+#PACKAGES{
+    background-color:rgb(255, 255, 255) ;
+    left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    margin-top: 0;
+}
+#PACKAGES #packagetb{
+    display: flex;
+}
+#packagetb{
+    width:90%;
+    right: 0;
+    margin-left: 100px ;
+    margin-right: auto;
+    align-items: center;
+    left:0;
+    border-spacing: 50px;
+    border-radius: 10px;
+    margin-top: 0;
+    
+}
+#pth1{
+    background-image:url(surendar-raja-i--P5tc7P34-unsplash.jpg);
+    background-size: 600px 300px;
+    transition: 0.6s;
+    opacity: 85%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+.packagebt{
+    color: rgb(255, 255, 255);
+    background:rgb(253, 148, 57);
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+}
+.packagebt:hover{
+    background: #000;
+}
+#pth1:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+
+}
+.packcon{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#pth2{
+    background-image: url(martijn-vonk-CJqJnFueWVY-unsplash.jpg);
+    background-size: 300px 300px;
+    transition: 0.6s;
+    opacity: 75%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+#pth2:hover{
+    transform: scale(1.1);opacity: 100%;
+}
+#pth3{
+    background-image: url(rayyu-maldives-lUevqgm9rec-unsplash.jpg);
+    background-size: 300px 300px;
+    transition: 0.6s;
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+#pth3:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+}
+#pth4{
+    background-image: url(david-vives-9CYqbhcF_Eo-unsplash.jpg);
+    background-size: 300px 300px;
+    transition: 0.6s;
+    opacity: 75%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+
+
+}
+#pth4:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+}
+#pth5
+{
+    background-image: url(joseph-gonzalez-IJf8Mef_scE-unsplash.jpg);
+    background-size: 300px 300px;
+    transition: 0.6s;
+    opacity: 75%;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#pth5:hover{
+    opacity: 100%;
+    transform: scale(1.1);
+}
+#grouptrip{
+    background-image: url(felix-rostig-UmV2wr-Vbq8-unsplash.jpg);
+    opacity: 60%;
+    background-size: 2000px 5000px;
+    background-size: cover;
+    align-items: center;
+    padding: 200px 100px;
+    z-index: -1;
+    margin-top: 40px;
+    display: flex;
+}
+#grouptext h2{
+    color: aliceblue;
+    font-size: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    isolation: isolate;
+    z-index: 1;
+    width: 600px;
+
+    
+
+}
+#grouptext{
+    color: #000000;
+    margin-left: 50px;
+    display: flex;
+}
+#form{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color:rgb(253, 148, 57); 
+    margin-right: 10px;
+    margin-left: 300px;
+    align-items:  center;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 15px;
+
+}
+.formint{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(5, 0, 0);
+    border: none;
+    font-size: 15px;
+}
+
+#conclusion img{
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;
+}
+#conclusion{
+    background-color:rgb(254, 254, 254);
+    box-shadow:  0 2px 10px 10px rgba(0, 0, 0, 0.30) ;
+}
+#phonenumber{
+    background-color:rgb(248, 163, 88);
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin-top: 0;
+    border: none;
+
+}
+#phonenumber:hover{
+    background-color: #000;
+    color: rgb(255, 254, 253);
+}
+#conimage img{
+    border-radius: 50%;
+    border:1px solid;
+}
+#conimage{ 
+    margin-left: 300px;
+    margin-right: auto;
+    width: 60%;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+}
+#concon p{
+    color: #000;
+
+
+
+}
+#concon{
+    margin-left:200px;
+    width: 70%;
+}
+#conconclu {
+    justify-content: space-between;
+    padding-right:250px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
+    background-color:rgb(248, 163, 88);
+    display: flex;
+    padding-left: 350px;
+}
